@@ -3,4 +3,4 @@ from graph.graph import app
 load_dotenv()
 
 if __name__ == '__main__':
-    print(app.invoke(input={'question': 'what is current weather in konya?'}))
+    print(app.invoke(input={'question': 'what is prompt engineering?'}))
